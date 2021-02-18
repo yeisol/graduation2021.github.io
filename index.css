@@ -1,15 +1,3 @@
-/*body,*/
-/*div,*/
-/*th,*/
-/*td,*/
-/*h1,*/
-/*input,*/
-/*select,*/
-/*textarea,*/
-/*button {*/
-/*    font-family: "Apple SD Gothic Neo", "Helvetica Neue", "Malgun Gothic", Helvetica, Arial, sans-serif;*/
-
-/*}*/
 
 @font-face {
     font-family: 'SDSamliphopangche_Outline';
@@ -30,10 +18,7 @@
     flex-direction: column;
     align-items: center;
 }
-/*#subTitle {*/
-/*    font-family: SDSamliphopangche_Outline;*/
-/*    font-size: 5vw;*/
-/*}*/
+
 #subTitle{
     width: 67%;
 }

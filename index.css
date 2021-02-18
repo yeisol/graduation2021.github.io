@@ -1,7 +1,104 @@
-#wrap{
-    background-color: darkolivegreen;
+/*body,*/
+/*div,*/
+/*th,*/
+/*td,*/
+/*h1,*/
+/*input,*/
+/*select,*/
+/*textarea,*/
+/*button {*/
+/*    font-family: "Apple SD Gothic Neo", "Helvetica Neue", "Malgun Gothic", Helvetica, Arial, sans-serif;*/
+
+/*}*/
+
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-#top{
-    max-width: 100%;
+
+@font-face {
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#subTileFrame{
+    padding-top: 2vw;
+}
+#subTitle {
+    font-family: SDSamliphopangche_Outline;
+    font-size: 5vw;
+}
+
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#center-box {
+    padding-top: 1vw;
     height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-box {
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 80%;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 80%;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 2vw;
+}
+
+#noticeFrame {
+    width: 67%;
+    padding-top: 2vw;
+}
+
+#video-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4vw;
+    padding-bottom: 5%;
+}
+
+#video {
+    width: 80%;
+
+}
+
+#notice{
+    font-family:HangeulNuri-Bold;
+    font-size: 2vw;
+    line-height: 200%;
+}
+#writerFrame{
+    padding-top: 1%;
+    text-align: right;
+}
+#writer{
+    font-family:HangeulNuri-Bold;
+    font-size: 2vw;
 }

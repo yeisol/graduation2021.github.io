@@ -110,8 +110,8 @@
 
 #warning{
     font-family: HangeulNuri-Bold;
-    font-size: 200%;
-    padding-bottom: 4%;
+    font-size:2vw;
+    padding-bottom: 3%;
 }
 #bottom-box{
     display: flex;
